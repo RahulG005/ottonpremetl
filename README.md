@@ -8,8 +8,10 @@ Objective:
 The primary objective of this project was to combine data from multiple sources into a centralized location, making it readily available for further insights and analytics in a database. The goal was to integrate OTT movie data and user data into a unified data platform for reporting and business intelligence purposes.
 Key Features:
 1.	Data Sources:
-o	OTT Movie Data (Local Server): This data included movie release information, genre, runtime, release date, added date, IMDb score, views, and additional metadata. It was stored in CSV format on a local server.
-o	User Data (API): This data included user information such as signup date, email, user ID, full name, and other general details. The data was initially in JSON format from a REST API and was later saved as CSV in the raw container of Azure Data Lake Gen2.
+  OTT Movie Data (Local Server): This data included movie release information, genre, runtime, release date, added date, IMDb score, views, and additional       
+  metadata. It was stored in CSV format on a local server.
+  User Data (API): This data included user information such as signup date, email, user ID, full name, and other general details. The data was initially in JSON   
+  format from a REST API and was later saved as CSV in the raw container of Azure Data Lake Gen2.
 2.	Data Ingestion:
 o	Azure Data Factory (ADF) was used for orchestrating the ingestion of data from both sources. A self-hosted Integration Runtime was configured for accessing files from the local server, while the Azure Integration Runtime was used for fetching user data from the REST API.
 o	The data was stored in Azure Data Lake Storage Gen2:
