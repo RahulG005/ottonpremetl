@@ -1,0 +1,51 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory-ottonprem"
+		},
+		"filesystem_ls_password": {
+			"value": ""
+		},
+		"ls_adls_api_accountKey": {
+			"value": ""
+		},
+		"ls_movie_Recommendation_accountKey": {
+			"value": ""
+		},
+		"filesystem_ls_properties_typeProperties_host": {
+			"value": "C:\\Users\\Rahul\\Raw data storage\\ottonpremdata\\Host"
+		},
+		"filesystem_ls_properties_typeProperties_userId": {
+			"value": "RAHUL"
+		},
+		"kv_ls_properties_typeProperties_baseUrl": {
+			"value": "https://ottkeyvault011.vault.azure.net/"
+		},
+		"ls_adls2_ingest_properties_typeProperties_url": {
+			"value": "https://storageottonprem011.dfs.core.windows.net"
+		},
+		"ls_adls_api_properties_typeProperties_url": {
+			"value": "https://storageottonprem011.dfs.core.windows.net/"
+		},
+		"ls_api_properties_typeProperties_url": {
+			"value": "https://my.api.mockaroo.com/users.json?"
+		},
+		"ls_azure_sql_database_properties_typeProperties_server": {
+			"value": "ottsqlserver011.database.windows.net"
+		},
+		"ls_azure_sql_database_properties_typeProperties_database": {
+			"value": "ottsqldatabase011"
+		},
+		"ls_azure_sql_database_properties_typeProperties_userName": {
+			"value": "Rahul"
+		},
+		"ls_movie_Recommendation_properties_typeProperties_url": {
+			"value": "https://storageottonprem011.dfs.core.windows.net/"
+		},
+		"ls_transform_notebook_properties_typeProperties_endpoint": {
+			"value": "https://synapseott.dev.azuresynapse.net"
+		}
+	}
+}
