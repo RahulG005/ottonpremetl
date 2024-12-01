@@ -1,0 +1,17 @@
+{
+	"name": "filesystem_ls",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\Users\\Rahul\\Raw data storage\\ottonpremdata\\Host",
+			"userId": "RAHUL",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2MWQ5MDU2Yi01YjZhLTQ4OTktOTJiYy0zMGEyMmM5YWFmN2MiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SHIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

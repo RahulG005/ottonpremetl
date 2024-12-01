@@ -1,0 +1,25 @@
+{
+	"name": "ls_azure_sql_database",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "ottsqlserver011.database.windows.net",
+			"database": "ottsqldatabase011",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "Rahul",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "kv_ls",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "azuresqlpassword",
+				"secretVersion": "702903dec2b149e8b5bbcab9a66804d8"
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"name": "ds_movie_recommendation",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_movie_Recommendation",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "movie_recommendation",
+				"fileSystem": "refined"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "email",
+				"type": "UTF8"
+			},
+			{
+				"name": "movie1",
+				"type": "UTF8"
+			},
+			{
+				"name": "movie2",
+				"type": "UTF8"
+			},
+			{
+				"name": "movie3",
+				"type": "UTF8"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,34 @@
+{
+	"name": "ds_sql_movie_recommendation",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azure_sql_database",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "email",
+				"type": "nvarchar"
+			},
+			{
+				"name": "movie1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "movie2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "movie3",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "movierecommendation"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

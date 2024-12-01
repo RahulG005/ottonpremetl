@@ -1,0 +1,9 @@
+{
+	"name": "datafactory-ottonprem",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "72c82b7d-6bb7-4d3b-bfbf-c29e2ae927ca",
+		"tenantId": "d4afed27-6d3e-4517-9390-dea15d76a768"
+	}
+}
