@@ -1,6 +1,8 @@
 Project: OTT Movie Data ETL Pipeline using Azure
 
-https://github.com/RahulG005/ottonpremetl/blob/main/architecture.png
+
+![image](https://github.com/user-attachments/assets/631869f9-0997-407d-aec2-fcd7431d7e2a)
+
 
 Objective:
 The primary objective of this project was to combine data from multiple sources into a centralized location, making it readily available for further insights and analytics in a database. The goal was to integrate OTT movie data and user data into a unified data platform for reporting and business intelligence purposes.
